@@ -16,10 +16,9 @@ then, inside docker shell:
 cd bin # so that qepcad.help is in cwd
 # Make an input file
 cat <<"EOF" >input.txt
-[ This is the ever-popular "X Axis Ellipse" problem ]
+[ "X Axis Ellipse" problem from qepcad documentation ]
 (a,b,c,x,y)
 3
-Enter a prenex formula:
 (A x)(A y)[ a > 0 /\ b > 0 /\ [
   [ b^2 (x - c)^2 + a^2 y^2 - a^2 b^2 = 0] ==>
   x^2 + y^2 - 1 <= 0
